@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Producto</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    
+    <body>
+        <header class="header">
+            <a href="Index.html"> 
+                <img  class="header__logo" src="img/logo.png" alt="Error al mostrar"> 
+            </a>
+        </header>
+        
+        <nav class="navegacion">
+            <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+            <a class="navegacion__enlace" href="nosotros.html">Nostros</a>
+        </nav>
+        
+        
+        <main class="contenedor">
+            <h1>React JS</h1>
+            
+            <div class="camisa">
+                <img src="img/3.jpg" alt="Imagen Camisa 3" class="img">
+                
+                <div>
+                    <p>
+                        Maecenas consectetur ultricies mi vel venenatis. Curabitur risus tellus, congue non 
+                        tellus at, semper dapibus turpis. Duis pellentesque, risus sit amet placerat porttitor, 
+                        tortor augue volutpat ante, non dignissim odio ligula at arcu.
+                    </p>
+
+                    <form class="formulario">
+                        <select class="formulario__campo">
+                            <option disabled selected>-- Seleccionar talla --</option>
+                            <option>Chica</option>
+                            <option>Mediana</option>
+                            <option>Grande</option>
+                        </select>
+
+                        <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+
+                        <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                    </form>
+                </div>
+            </div>
+        </main>
+        
+        
+        <footer class="footer">
+            <p class="footer__texto">Programador - Todos los derechos reservados Edwin Castillo. 2022</p>
+        </footer>
+    </body>
+</html>
